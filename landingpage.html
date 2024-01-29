@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- <link rel="stylesheet" href="second.css"> -->
+
+    <style>
+
+
+        body {
+
+          width: 3000px;
+          display: grid;
+          grid-template-rows: 1fr 1fr;
+          height: 100vh;
+          margin: 0;
+        }
+
+        .sky{
+          background-color: skyblue;
+          padding: 50px;
+          position: relative;
+          text-align: left; color: orangered;
+          font-size: 40px;
+         }
+
+        .ground {
+          background-color: burlywood;
+          padding: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: left;
+          text-align: left;
+          color: orangered;
+          font-size: 80px;
+        }
+        .carrot {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            bottom: 0;
+            overflow: hidden;
+            /* background-color: white; */
+        }
+        .carrot img {
+            width: 200px;
+            position: absolute;
+            top: 80%;
+            transition: .5s;
+        }
+        .carrot:hover img {
+            top: 30%;
+        }
+
+    
+        </style>
+</head>
+
+
+<body>
+
+
+    <div class="sky">
+        <div style="font-size: medium;">
+            <p>
+                <a href="index.html" style="color: orangered;">Farm 1</a>
+                <a href="potato.html" style="color: orangered;">Farm 2</a>
+                <a href="raddish.html" style="color: orangered;">Farm 3</a>
+                </p>
+           
+                </div>
+
+        <h1>Choose your farm</h1>
+        
+    </div>
+
+    <div class="ground">
+        Farmer's guide to fresh veggies.
+    </div>
+    
+</body>
+</html>
